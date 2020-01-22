@@ -125,6 +125,8 @@
                                     @await Html.PartialAsync("_Availability", variant)
                                     <!--SKU, MAN, GTIN, vendor-->
                                     @await Html.PartialAsync("_SKU_Man_GTIN_Ven", variant)
+                                    <!--author-->
+                                    @await Html.PartialAsync("_Author", variant)
                                     <!--delivery-->
                                     @await Html.PartialAsync("_DeliveryInfo", variant)
                                     <!--sample download-->

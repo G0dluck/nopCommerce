@@ -1,0 +1,11 @@
+﻿@model ProductDetailsModel
+@using Nop.Core.Domain.Catalog
+<div class="info-details">
+    @if ((!string.IsNullOrWhiteSpace(Model.Author) || Model.ManageInventoryMethod == ManageInventoryMethod.ManageStockByAttributes) && Model.ShowAuthor)
+    {
+        <div class="author" @(string.IsNullOrWhiteSpace(Model.Author) ? Html.Raw("style=\"display:none\"") : null)>
+            <span class="label">@T("Products.Author"):</span>
+            <span class="value" id="author-@Model.Id">@Model.Author</span>
+        </div>
+    }
+</div>

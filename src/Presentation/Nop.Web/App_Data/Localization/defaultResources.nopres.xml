@@ -3183,6 +3183,12 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.Sku.Reserved">
     <Value>The entered SKU is already reserved for the product '{0}'</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author">
+    <Value>Author</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author.Hint">
+    <Value>Hint Author</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.StockQuantity">
     <Value>Stock quantity</Value>
   </LocaleResource>
@@ -5684,6 +5690,12 @@
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.DisplayOrder">
     <Value>Display order</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowAuthorOnProductDetailsPage">
+    <Value>Show Author on product details page</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowAuthorOnProductDetailsPage.Hint">
+    <Value>Check to show product Author on the product details page in public store.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.SortOptions.IsActive">
     <Value>Is active</Value>
@@ -17213,6 +17225,9 @@
   </LocaleResource>
   <LocaleResource Name="Products.Sku">
     <Value>SKU</Value>
+  </LocaleResource>
+  <LocaleResource Name="Products.Author">
+    <Value>Author</Value>
   </LocaleResource>
   <LocaleResource Name="Products.Specs">
     <Value>Products specifications</Value>

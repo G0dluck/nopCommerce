@@ -1171,6 +1171,8 @@ namespace Nop.Web.Factories
                 ProductType = product.ProductType,
                 ShowSku = _catalogSettings.ShowSkuOnProductDetailsPage,
                 Sku = product.Sku,
+                ShowAuthor = _catalogSettings.ShowAuthorOnProductDetailsPage,
+                Author = product.Author,
                 ShowManufacturerPartNumber = _catalogSettings.ShowManufacturerPartNumber,
                 FreeShippingNotificationEnabled = _catalogSettings.ShowFreeShippingNotification,
                 ManufacturerPartNumber = product.ManufacturerPartNumber,

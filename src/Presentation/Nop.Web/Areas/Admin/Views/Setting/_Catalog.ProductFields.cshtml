@@ -23,6 +23,16 @@
     </div>
     <div class="form-group">
         <div class="col-md-3">
+            <nop-override-store-checkbox asp-for="ShowAuthorOnProductDetailsPage_OverrideForStore" asp-input="ShowAuthorOnProductDetailsPage" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+            <nop-label asp-for="ShowAuthorOnProductDetailsPage" />
+        </div>
+        <div class="col-md-9">
+            <nop-editor asp-for="ShowAuthorOnProductDetailsPage" />
+            <span asp-validation-for="ShowAuthorOnProductDetailsPage"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-3">
             <nop-override-store-checkbox asp-for="ShowGtin_OverrideForStore" asp-input="ShowGtin" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
             <nop-label asp-for="ShowGtin" />
         </div>

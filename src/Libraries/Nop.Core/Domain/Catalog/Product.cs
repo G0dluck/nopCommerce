@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Nop.Core.Domain.Discounts;
@@ -553,6 +553,11 @@ namespace Nop.Core.Domain.Catalog
         /// Gets or sets the date and time of product update
         /// </summary>
         public DateTime UpdatedOnUtc { get; set; }
+
+        /// <summary>
+        /// Gets or sets author
+        /// </summary>
+        public string Author { get; set; }
 
         /// <summary>
         /// Gets or sets the product type

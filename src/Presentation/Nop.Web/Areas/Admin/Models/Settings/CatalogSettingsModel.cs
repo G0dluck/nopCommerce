@@ -42,6 +42,10 @@ namespace Nop.Web.Areas.Admin.Models.Settings
         public bool ShowSkuOnCatalogPages { get; set; }
         public bool ShowSkuOnCatalogPages_OverrideForStore { get; set; }
 
+        [NopResourceDisplayName("Admin.Configuration.Settings.Catalog.ShowAuthorOnProductDetailsPage")]
+        public bool ShowAuthorOnProductDetailsPage { get; set; }
+        public bool ShowAuthorOnProductDetailsPage_OverrideForStore { get; set; }
+
         [NopResourceDisplayName("Admin.Configuration.Settings.Catalog.ShowManufacturerPartNumber")]
         public bool ShowManufacturerPartNumber { get; set; }
         public bool ShowManufacturerPartNumber_OverrideForStore { get; set; }
