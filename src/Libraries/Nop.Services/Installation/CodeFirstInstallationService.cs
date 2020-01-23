@@ -6142,6 +6142,7 @@ namespace Nop.Services.Installation
                 PublishBackProductWhenCancellingOrders = false,
                 ShowSkuOnProductDetailsPage = true,
                 ShowSkuOnCatalogPages = false,
+                ShowAuthorOnProductDetailsPage = true,
                 ShowManufacturerPartNumber = false,
                 ShowGtin = false,
                 ShowFreeShippingNotification = true,
