@@ -150,6 +150,7 @@
         public static string ProductBoxAddinfoMiddle => "productbox_addinfo_middle";
         public static string ProductBreadcrumbAfter => "productbreadcrumb_after";
         public static string ProductBreadcrumbBefore => "productbreadcrumb_before";
+        public static string ProductDetailsDiscountDelivery => "productdetails_discount_delivery";
         public static string ProductDetailsAddInfo => "productdetails_add_info";
         public static string ProductDetailsAfterBreadcrumb => "productdetails_after_breadcrumb";
         public static string ProductDetailsAfterPictures => "productdetails_after_pictures";

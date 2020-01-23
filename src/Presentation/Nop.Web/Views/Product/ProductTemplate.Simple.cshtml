@@ -84,6 +84,8 @@
                         @await Html.PartialAsync("_Author", Model)
                         <!--delivery-->
                         @await Html.PartialAsync("_DeliveryInfo", Model)
+                        <!--text discount-->
+                        @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ProductDetailsDiscountDelivery, additionalData = Model })
                         <!--sample download-->
                         @await Html.PartialAsync("_DownloadSample", Model)
                         <!--attributes-->

@@ -131,6 +131,8 @@
                                     @await Html.PartialAsync("_DeliveryInfo", variant)
                                     <!--sample download-->
                                     @await Html.PartialAsync("_DownloadSample", variant)
+                                    <!--text discount-->
+                                    @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.ProductDetailsDiscountDelivery, additionalData = Model })
                                     <!--attributes-->
                                     @{
                                         var dataDictAttributes = new ViewDataDictionary(ViewData);

@@ -1,0 +1,9 @@
+﻿@model Nop.Plugin.Widgets.DiscountDelivery.Models.PublicInfoModel
+<div class="text-discount">
+    @if (!string.IsNullOrWhiteSpace(Model.TextDiscount))
+    {
+        <div class="discountdelivery" @(string.IsNullOrWhiteSpace(Model.TextDiscount) ? Html.Raw("style=\"display:none\"") : null)>
+            <span class="value">@Model.TextDiscount</span>
+        </div>
+    }
+</div>
